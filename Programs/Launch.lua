@@ -5,6 +5,22 @@ loading.ResetOnSpawn = true
 loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 loading.Name = "Loading"
 loading.Parent = workspace
+PARENT = nil
+COREGUI = game:GetService("CoreGui")
+if get_hidden_gui or gethui then
+	local hiddenUI = get_hidden_gui or gethui
+	loading.Parent = hiddenUI()
+	PARENT = loading
+elseif (not is_sirhurt_closure) and (syn and syn.protect_gui) then
+	syn.protect_gui(loading)
+	loading.Parent = COREGUI
+	PARENT = loading
+elseif COREGUI:FindFirstChild('RobloxGui') then
+	PARENT = COREGUI.RobloxGui
+else
+	loading.Parent = COREGUI
+	PARENT = loading
+end
 page = Instance.new("ImageLabel")
 page.AnchorPoint = Vector2.new(0.5, 0.5)
 page.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
