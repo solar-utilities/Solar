@@ -1,2 +1,2 @@
-# Solar
-The best utility script on the market.
+# Yo?
+Why are you looking here? 🤔
