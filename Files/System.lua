@@ -43,6 +43,7 @@ writefile("_Solar\\Variables\\time_of_day.lua", "00:00:00")
 writefile("_Solar\\Variables\\time_since_launched.lua", "0h 0m 0s")
 writefile("_Solar\\Variables\\version.lua", "0.0.7")
 writefile("_Solar\\Variables\\testing.lua", "false")
+writefile("_Solar\\Variables\\theme.lua", "")
 
 coroutine.wrap(function()
     repeat
