@@ -34,7 +34,7 @@ writefile("_Solar\\Libraries\\roact", "")
 writefile("_Solar\\Libraries\\rostruct", "")
 
 writefile("_Solar\\Variables\\owner.lua", "Suno#2182")
-writefile("_Solar\\Variables\\server_invite.lua", "https://discord.gg/9p9EWXZ6rq")
+writefile("_Solar\\Variables\\server_invite.lua", "discord.gg/9p9EWXZ6rq")
 writefile("_Solar\\Variables\\slogan.lua", "Be your best you")
 writefile("_Solar\\Variables\\name.lua", "Solar Utilities")
 writefile("_Solar\\Variables\\latest_update.lua", "")
