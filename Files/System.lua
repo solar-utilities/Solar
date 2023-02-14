@@ -18,9 +18,14 @@ makefolder("_Solar\\Constants")
 makefolder("_Solar\\Variables")
 makefolder("_Solar\\LocallyStored")
 makefolder("_Solar\\Libraries")
+makefolder("_Solar\\Constants\\Login")
 
 writefile("_Solar\\WARNING.txt", "Be careful viewing the Solar filesystem!\n\nAnything you do may potentially harm Solar's framework and cause it to not function as intended. Edit with caution!\n\nOh and no, the source code isn't here, please, if you're trying to skid Solar, try somewhere else, thanks")
 writefile("_Solar\\Copyright.txt", "Solar(c) founded & developed by Suno#2182, contact me on Discord if you have any questions.")
+
+writefile("_Solar\\Constants\\Login\\user.lua", "not_signed_in")
+writefile("_Solar\\Constants\\Login\\pass.lua", "not_signed_in")
+writefile("_Solar\\Constants\\Login\\mail.lua", "not_signed_in")
 
 writefile("_Solar\\LocallyStored\\user_id.lua", tostring(game:GetService("Players").LocalPlayer.UserId))
 writefile("_Solar\\LocallyStored\\username.lua", tostring(game:GetService("Players").LocalPlayer.Name))
